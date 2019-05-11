@@ -23,3 +23,7 @@
 * [ ] setup Travis deploy on commit (because it is already there)
   * [ ] check that it works
   * [ ] notify channel (all channels?)
+
+---
+
+21:48 - I still trying to get ideal hosting (OMG!)
