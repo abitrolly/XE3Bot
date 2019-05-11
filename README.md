@@ -27,3 +27,4 @@
 ---
 
 21:48 - I still trying to get ideal hosting (OMG!)
+02:07 - I give up. Need to get the format of `.scwrc` file.
