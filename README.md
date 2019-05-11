@@ -13,7 +13,7 @@
     * [ ] Scaleway (IP + cheapest ARM hosting)
     * [ ] other variants (secure enough so nobody steals my token)
 
-* [ ] setup Scaleway hosting (because it is already there eating credit card of @abitrolly)
+* [ ] setup Scaleway hosting (because it is already there eating credit card of @abitrolly, issue #1)
   * [ ] record instance IP, ssh command to login, bot location, OS
     * [ ] setup automatic updates / security notifications
       * [ ] make me check updates myself and notify you
