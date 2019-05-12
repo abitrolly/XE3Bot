@@ -13,7 +13,7 @@
     * [ ] Scaleway (IP + cheapest ARM hosting)
     * [ ] other variants (secure enough so nobody steals my token)
 
-* [ ] setup Scaleway hosting (because it is already there eating credit card of @abitrolly, issue #1)
+* [x] setup Scaleway hosting (because it is already there eating credit card of @abitrolly, issue #1)
   * [ ] record instance IP, ssh command to login, bot location, OS
     * [ ] setup automatic updates / security notifications
       * [ ] make me check updates myself and notify you
@@ -28,3 +28,4 @@
 
 21:48 - I still trying to get ideal hosting (OMG!)
 02:07 - I give up. Need to get the format of `.scwrc` file.
+04:30 - Scaleway server is up with no external IP

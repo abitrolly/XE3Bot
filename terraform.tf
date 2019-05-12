@@ -22,3 +22,8 @@ resource "scaleway_server" "xe3" {
   image = "${data.scaleway_image.bionic.id}"
   type  = "ARM64-2GB"
 }
+
+resource "scaleway_ip" "xe3ip" {
+  server  = "${scaleway_server.xe3.id}"
+}
+
