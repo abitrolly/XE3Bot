@@ -1,3 +1,11 @@
+XE3Bot is running in Ubuntu 18.04, Scaleway ARM64-2GB plan for €2.99/mo.
+```
+ssh root@51.15.69.159
+ssh ubuntu@51.15.69.159
+cd /home/ubuntu/XE3Bot
+```
+
+---
 
 * [ ] /weather
 * [ ] /bus 116 alibegova@6:00
@@ -14,7 +22,7 @@
     * [ ] other variants (secure enough so nobody steals my token)
 
 * [x] setup Scaleway hosting (because it is already there eating credit card of @abitrolly, issue #1)
-  * [ ] record instance IP, ssh command to login, bot location, OS
+  * [x] record instance IP, ssh command to login, bot location, OS
     * [ ] setup automatic updates / security notifications
       * [ ] make me check updates myself and notify you
       * [ ] /update to update manually
@@ -25,7 +33,9 @@
   * [ ] notify channel (all channels?)
 
 ---
-
+```
 21:48 - I still trying to get ideal hosting (OMG!)
 02:07 - I give up. Need to get the format of `.scwrc` file.
 04:30 - Scaleway server is up with no external IP
+04:50 - Done with the hosting
+```
