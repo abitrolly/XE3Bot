@@ -23,11 +23,12 @@ cd /home/ubuntu/XE3Bot
 <!-- -->
 * [x] setup Scaleway hosting (because it is already there eating credit card of @abitrolly, issue #1)
   * [x] record instance IP, ssh command to login, bot location, OS (see README.md start)
-* [ ] setup `webhook` and Ansible playbook for other configuration (issue #2)
+* [x] setup `webhook` and Ansible playbook for other configuration (issue #2)
 * [ ] setup automatic Ubuntu updates / security notifications
   * [ ] make me check updates myself and notify you
    * [ ] /update to update manually
    * [ ] auto-update when ops is busy with its human life
+  * [ ] notify when reboot is needed
 * [ ] write Python, JS, whatever in 15 minutes to reply ХЕЗ on any reply
 * [ ] setup Travis deploy on commit (because it is already there)
   * [ ] check that it works
