@@ -44,4 +44,5 @@ cd /home/ubuntu/XE3Bot
 ```
 13:46 - Installing necessary software with Ansible
 15:20 - Finished generating Ansible inventory with Terraform
+17:52 - `webhook` is installed and system updated
 ```
