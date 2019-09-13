@@ -1,3 +1,7 @@
+terraform {
+  required_version = ">= 0.12"
+}
+
 provider "scaleway" {
   /* Using .scwrc for auth. Because `scw` is needed
      to see available images anyway
