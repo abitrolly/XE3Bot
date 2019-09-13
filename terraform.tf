@@ -35,13 +35,12 @@ data "template_file" "inventory" {
 root@${scaleway_server.xe3.public_ip}
 EOT
 
-
   depends_on = [scaleway_ip.xe3ip]
 }
 
 resource "null_resource" "generate_inventory" {
   triggers = {
-    template_rendered = "$data.template_file.inventory.rendered"
+    template_rendered = "${data.template_file.inventory.rendered}"
   }
 
   provisioner "local-exec" {
